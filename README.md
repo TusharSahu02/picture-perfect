@@ -1,4 +1,5 @@
 ![Logo](/src/assets/logo.svg)
+
 A movie listing site which fetches data from TMDB API
 
 ```
