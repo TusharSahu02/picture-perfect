@@ -1,9 +1,18 @@
-# React + Vite
+![Logo](/src/assets/logo.svg)
+A movie listing site which fetches data from TMDB API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```
+git clone https://github.com/TusharSahu02/picture-perfect.git
+cd picture-perfect
+npm i
+npm run dev
+```
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-f
+create a `.env` file and add your TMDB api there 
+
+```
+VITE_APP_TMDB_TOKEN = YOUR_API_KEY
+```
+
+Deployed Link : [Open](https://pictureperfect-self.vercel.app/)
